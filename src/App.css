@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+* {
+  margin: 0;
+  font-family:'Monserrat', sans-serif;
+  color: #333;
+}
+h1{
+  font-size: 20px;
+  color: #898AA6;
+  position: relative;
+  top:10%;
+  left:25%;
+  padding: 10px;
+}
+.list-item{
+  position: relative;
+  top:10%;
+  left:25%;
+  width: 50%;
+}
+.task-prior{
+  background-color: #F8F9D7;
+  padding: 10px 16px;
+  margin: 5px 0;
+  border-bottom: 1px solid #fafafa;
+  border-radius: 8px;
+}
+/* task previews / list */
+
+.task-preview {
+  background-color: #F6FBF4;
+  padding: 10px 16px;
+  margin: 5px 0;
+  border-bottom: 1px solid #fafafa;
+  border-radius: 8px;
+}
+.task-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.task-pewview div {
+  margin: 20px 0;
+}
+
+.task-done {
+  background-color: #C4D7E0;
+  padding: 10px 16px;
+  margin: 5px 0;
+  border-bottom: 1px solid #fafafa;
+  border-radius: 8px;
+}
+.task-done:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.star{
+  position:absolute;
+  top:30%;
+  right:5%;
+  background:none;
+  background-color: none;
+  border:none;
+  cursor: pointer;
+}
+.done {
+  position:absolute;
+  top:30%;
+  right:10%;
+  background:none;
+  background-color: none;
+  border:none;
+  cursor: pointer;
+}
+
+.delete {
+  position:absolute;
+  top:20%;
+  right:14%;
+  background:none;
+  background-color: none;
+  border:none;
+  cursor: pointer;
+  margin:5px;
+}
+
+
+/* create new task form */
+.create {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+.create input {
+  position: absolute;
+  left:30%;
+  top:-0.3%;
+  width: 30%;
+  height:40px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: inline;
+}
+.create-btn {
+  position:absolute;
+  top:1%;
+  left:61%;
+  width: 8%;
+  height:38px;
+  background: #6E85B7;
+  font-weight: 600;
+  color: #C4D7E0;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.inner
+{
+    display: inline-block;
+    justify-content: space-between;
+}
